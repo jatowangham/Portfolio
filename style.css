@@ -18,6 +18,12 @@ body {
   font-size: 1.125rem;
   font-weight: 300;
 }
+
+#mainHeight{
+  min-height: 100vh;
+  width: 100%;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -139,6 +145,27 @@ footer {
   color: white;
   text-align: center;
   padding: 2em 0;
+  margin-bottom: 0px;
+}
+
+.tech-list{
+  color: #90d3f8;
+}
+.tools{
+  display: inline-block;
+  margin-left: 5px;
+  color: #707070;
+  font-size: 16px;
+}
+.meH4{
+  margin: -8px 0px;
+}
+.meH4:first-of-type{
+  margin-top: 20px;
+}
+
+.meH4:last-of-type{
+  margin-bottom: 20px;
 }
 
 @media (min-width: 675px) {
