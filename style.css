@@ -17,12 +17,8 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
+  height: 100vh;
 }
-
-/* #mainHeight{
-  min-height: 100vh;
-  width: 100%;
-} */
 
 img {
   max-width: 100%;
@@ -140,13 +136,6 @@ header {
   margin-bottom: 3em;
 }
 
-footer {
-  background: #143774;
-  color: white;
-  text-align: center;
-  padding: 2em 0;
-  margin-bottom: 0px;
-}
 
 .tech-list{
   color: #90d3f8;
@@ -300,4 +289,12 @@ nav a:focus {
 
 .widget-image {
   order: -1;
+}
+
+footer {
+  background: #143774;
+  color: white;
+  text-align: center;
+  padding: 2em 0;
+  margin-bottom: 0px;
 }
